@@ -88,3 +88,4 @@ bypass this and is server-only, used behind explicit admin checks. See
 [ARCHITECTURE §4](./ARCHITECTURE.md).
 
 **Never** commit `.env.local` or expose `SUPABASE_SERVICE_ROLE_KEY` to the browser.
+# uk-property-platform
