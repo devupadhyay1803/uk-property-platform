@@ -31,7 +31,8 @@ export async function loginAction(
   const { data, error } = await supabase.auth.signInWithPassword({ email, password });
 
   if (error) {
-    return { ok: false, error: 'Invalid email or password.' };
+    console.error('SUPABASE AUTH ERROR:', error);
+    return { ok: false, error: `Debug: ${error.message}` };
   }
 
   // Try app_metadata first (set by Auth Hook), then fall back to profiles table
