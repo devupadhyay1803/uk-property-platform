@@ -209,7 +209,7 @@ export default async function ListingDetailPage({
                <span className="hover:text-slate-900 cursor-pointer transition-colors">Map</span>
                <span className="hover:text-slate-900 cursor-pointer transition-colors">Brochure</span>
              </div>
-             <a href="#" className="bg-black text-white px-8 py-3.5 text-[11px] font-bold uppercase tracking-widest hover:bg-slate-800 transition-colors">
+             <a href="#enquire" className="bg-black text-white px-8 py-3.5 text-[11px] font-bold uppercase tracking-widest hover:bg-slate-800 transition-colors">
                Request Viewing
              </a>
           </div>
