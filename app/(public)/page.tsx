@@ -44,7 +44,7 @@ export default async function HomePage() {
             playsInline 
             className="object-cover w-full h-full object-center opacity-80"
           >
-            <source src="/videos/hero-video.mp4" type="video/mp4" />
+            <source src="/videos/hero-video-v2.mp4" type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-slate-900/50 mix-blend-multiply" />
         </div>
